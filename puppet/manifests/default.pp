@@ -4,3 +4,4 @@ include apache
 include system-update
 include git
 include python
+include nodejs
