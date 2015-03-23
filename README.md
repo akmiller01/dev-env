@@ -16,18 +16,18 @@ mkdir git
 cd git
 git clone https://github.com/akmiller01/dev-env.git
 ```
-6. Run the following commands:
+6. (Optional) If your computer has less than 4 cores or less than 4 GB of RAM, edit lines 51-52 of Vagrantfile
+7. Run the following commands:
 ```
 cd C:/git/dev-env
 vagrant up
 vagrant ssh
 ```
-7. Enjoy your development environment
-8. (Optional) Download and install an editor with a GUI (I like Komodo Edit - http://komodoide.com/komodo-edit/)
-9. (Optional) Download and install github GUI - https://windows.github.com/
-10. (Optional) Download R for windows (http://cran.r-project.org/bin/windows/base/) and the R editor RStudio (http://www.rstudio.com/)
+8. Enjoy your development environment
+9. (Optional) Download and install an editor with a GUI (I like Komodo Edit - http://komodoide.com/komodo-edit/)
+10. (Optional) Download and install github GUI - https://windows.github.com/
+11. (Optional) Download R for windows (http://cran.r-project.org/bin/windows/base/) and the R editor RStudio (http://www.rstudio.com/)
 
 ##To-do
 
-1. R
-2. GDAL-OGR
+1. GDAL-OGR

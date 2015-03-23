@@ -13,3 +13,4 @@ include python-stats
 class { 'nodejs':
   version => 'stable',
 }
+class { 'r': }
