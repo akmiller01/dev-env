@@ -51,7 +51,7 @@ Development Environment Repo
 4. Python, Python-dev, Virtualenv
 
     ```
-    node script.js
+    nodejs script.js
     npm install package
     ```
 5. Python stats package (Numpy, Matplotlib, etc.)
