@@ -6,11 +6,6 @@ class python-stats {
                 ensure => installed,
                 require => Package['python-pip']
             }
-            package { ["setuptools"]:
-                ensure => installed,
-                provider => pip,
-                require => Package['python-pip']
-            }
             package { ["numpy"]:
                 ensure => installed,
                 provider => pip,

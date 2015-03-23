@@ -29,6 +29,5 @@ vagrant ssh
 
 ##To-do
 
-1. NPM
-2. R
-3. GDAL-OGR
+1. R
+2. GDAL-OGR
