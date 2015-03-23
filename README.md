@@ -33,32 +33,39 @@ Development Environment Repo
 ##Features
 
 1. git
+
     ```
     git status
     ```
 2. NodeJS and npm
+
     ```
     node script.js
     npm install package
     ```
 3. R statistical software
+
     ```
     R
     ```
 4. Python, Python-dev, Virtualenv
+
     ```
     node script.js
     npm install package
     ```
 5. Python stats package (Numpy, Matplotlib, etc.)
+
     ```
     import numpy
     ```
 6. OSGEO in Python
+
     ```
     from osgeo import gdal
     ```
 7. GDAL scripts
+
     ```
     gdal_grid...
     ```
