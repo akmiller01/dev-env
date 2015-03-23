@@ -14,3 +14,4 @@ class { 'nodejs':
   version => 'stable',
 }
 class { 'r': }
+class { 'gdal': }

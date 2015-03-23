@@ -29,7 +29,3 @@ Development Environment Repo
 9. (Optional) Download and install an editor with a GUI (I like Komodo Edit - http://komodoide.com/komodo-edit/)
 10. (Optional) Download and install github GUI - https://windows.github.com/
 11. (Optional) Download R for windows (http://cran.r-project.org/bin/windows/base/) and the R editor RStudio (http://www.rstudio.com/)
-
-##To-do
-
-1. GDAL-OGR
