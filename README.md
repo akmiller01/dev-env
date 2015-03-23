@@ -29,3 +29,39 @@ Development Environment Repo
 9. (Optional) Download and install an editor with a GUI (I like Komodo Edit - http://komodoide.com/komodo-edit/)
 10. (Optional) Download and install github GUI - https://windows.github.com/
 11. (Optional) Download R for windows (http://cran.r-project.org/bin/windows/base/) and the R editor RStudio (http://www.rstudio.com/)
+
+##Features
+
+1. git
+    ```
+    git status
+    ```
+2. NodeJS and npm
+    ```
+    node script.js
+    npm install package
+    ```
+3. R statistical software
+    ```
+    R
+    ```
+4. Python, Python-dev, Virtualenv
+    ```
+    node script.js
+    npm install package
+    ```
+5. Python stats package (Numpy, Matplotlib, etc.)
+    ```
+    import numpy
+    ```
+6. OSGEO in Python
+    ```
+    from osgeo import gdal
+    ```
+7. GDAL scripts
+    ```
+    gdal_grid...
+    ```
+8. Drive mapping
+    - C:/git => /git
+    - C:/git/dev-env => /vagrant
