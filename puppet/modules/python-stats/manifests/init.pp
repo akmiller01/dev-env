@@ -12,7 +12,7 @@ class python-stats {
                 require => Package['python-pip']
             }
             package { ["numpy"]:
-                ensure => '1.7.0',
+                ensure => installed,
                 provider => pip,
                 require => Package['python-pip']
             }
@@ -34,41 +34,6 @@ class python-stats {
                 provider => pip,
                 require => Package['python-pip']
             }
-            package { 'untangle':
-                ensure => installed,
-                provider => pip,
-                require => Package['virtualenv']
-            }
-            package { 'yolk':
-                ensure => installed,
-                provider => pip,
-                require => Package['virtualenv']
-            }
-            package { 'pygments':
-                ensure => installed,
-                provider => pip,
-                require => Package['virtualenv']
-            }
-            package { 'nose':
-                ensure => installed,
-                provider => pip,
-                require => Package['virtualenv']
-            }
-            package { 'tornado':
-                ensure => installed,
-                provider => pip,
-                require => Package['virtualenv']
-            }
-            package { 'jinja2':
-                ensure => installed,
-                provider => pip,
-                require => Package['virtualenv']
-            }
-            package { 'sympy':
-                ensure => installed,
-                provider => pip,
-                require => Package['virtualenv']
-            }
             package { 'scikit-learn':
                 provider => pip,
                 require => Package['matplotlib']
@@ -78,17 +43,7 @@ class python-stats {
                 provider => pip,
                 require => Package['numpy']
             }
-            package { 'seaborn':
-                ensure => installed,
-                provider => pip,
-                require => Package['matplotlib']
-            }
             package { 'patsy':
-                ensure => installed,
-                provider => pip,
-                require => Package['python-pip']
-            }
-            package { 'bokeh':
                 ensure => installed,
                 provider => pip,
                 require => Package['python-pip']
@@ -97,21 +52,6 @@ class python-stats {
                 ensure => installed,
                 provider => pip,
                 require => Package['patsy', 'numpy', 'pandas', 'python-scipy']
-            }
-            package { 'vincent':
-                ensure => installed,
-                provider => pip,
-                require => Package['pandas']
-            }
-            package { 'ipython':
-                ensure => installed,
-                provider => pip,
-                require => Package['virtualenv']
-            }
-            package { 'ipython-sql':
-                ensure => installed,
-                provider => pip,
-                require => Package['ipython']
             }
         }
     }

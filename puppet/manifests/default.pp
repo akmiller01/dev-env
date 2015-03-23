@@ -11,4 +11,4 @@ class { 'python':
 }
 include python
 include python-stats
-include nodejs
+class { 'nodejs': }
