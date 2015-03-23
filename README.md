@@ -9,6 +9,7 @@ Development Environment Repo
 3. Download and install VirtualBox - https://www.virtualbox.org/
 4. Download and install Vagrant - https://www.vagrantup.com/
 5. Clone this repository into "C:/git/dev-env"
+
     ```
     C:
     cd /
@@ -18,6 +19,7 @@ Development Environment Repo
     ```
 6. (Optional) If your computer has less than 4 cores or less than 4 GB of RAM, edit lines 51-52 of Vagrantfile
 7. Run the following commands:
+
     ```
     cd C:/git/dev-env
     vagrant up
