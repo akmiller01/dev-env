@@ -10,8 +10,6 @@ class { 'python':
   dev => true
 }
 include python-stats
-class { 'nodejs':
-  version => 'stable',
-}
+include nodejs
 class { 'r': }
 class { 'gdal': }
