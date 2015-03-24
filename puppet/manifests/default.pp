@@ -13,3 +13,4 @@ include python-stats
 include nodejs
 class { 'r': }
 class { 'gdal': }
+include poppler
