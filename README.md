@@ -17,7 +17,7 @@ Development Environment Repo
     cd git
     git clone https://github.com/akmiller01/dev-env.git
     ```
-6. (Optional) If your computer has less than 4 cores or less than 4 GB of RAM, edit lines 51-52 of Vagrantfile
+6. (Optional) If your computer has less than 4 cores, less than 4 GB of RAM, or does not have an S: drive, edit lines 53, 52, and 41 of Vagrantfile respectively
 7. Run the following commands:
 
     ```
@@ -54,7 +54,7 @@ Development Environment Repo
     nodejs script.js
     npm install package
     ```
-5. Python stats package (Numpy, Matplotlib, etc.)
+5. Python stats package (Numpy, pandas)
 
     ```
     import numpy
@@ -72,3 +72,4 @@ Development Environment Repo
 8. Drive mapping
     - C:/git => /git
     - C:/git/dev-env => /vagrant
+    - S:/ => /s
