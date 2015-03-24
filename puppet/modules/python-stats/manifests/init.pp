@@ -2,7 +2,7 @@
 class python-stats {
     case $operatingsystem {
         ubuntu: {
-            package { ["python-zmq", "python-scipy"]:
+            package { ["python-scipy"]:
                 ensure => installed,
                 require => Package['python-pip']
             }
