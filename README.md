@@ -23,12 +23,33 @@ Development Environment Repo
     ```
     cd C:/git/dev-env
     vagrant up
+    ```
+8. (Optional) If provisioner returns with non-zero exit status, try reloading with provision tag:
+
+    ```
+    vagrant reload --provision
+    ```
+9. SSH into your new linux development box:
+
+    ```
     vagrant ssh
     ```
-8. Enjoy your development environment
-9. (Optional) Download and install an editor with a GUI (I like Komodo Edit - http://komodoide.com/komodo-edit/)
-10. (Optional) Download and install github GUI - https://windows.github.com/
-11. (Optional) Download R for windows (http://cran.r-project.org/bin/windows/base/) and the R editor RStudio (http://www.rstudio.com/)
+10. (Optional) Download and install an editor with a GUI (I like Komodo Edit - http://komodoide.com/komodo-edit/)
+11. (Optional) Download and install github GUI - https://windows.github.com/
+12. (Optional) Download R for windows (http://cran.r-project.org/bin/windows/base/) and the R editor RStudio (http://www.rstudio.com/)
+13. To halt development box:
+
+    ```
+    exit
+    vagrant halt
+    ```
+14. To start once built development box:
+
+    ```
+    cd C:/git/dev-env
+    vagrant up & vagrant ssh
+    ```
+
 
 ##Features
 

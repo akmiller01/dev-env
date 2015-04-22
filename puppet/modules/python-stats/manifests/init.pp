@@ -10,6 +10,16 @@ class python-stats {
             package { ['libfreetype6-dev', 'pkg-config']:
                 ensure => installed
             }
+            package { ['pyPdf']:
+                ensure => installed,
+                provider => pip,
+                require => Package['numpy']
+            }
+            package { ['scraperwiki']:
+                ensure => installed,
+                provider => pip,
+                require => Package['numpy']
+            }
             package { 'pandas':
                 ensure => installed,
                 provider => pip,
