@@ -72,25 +72,35 @@ Development Environment Repo
 4. Python, Python-dev, Virtualenv
 
     ```
-    nodejs script.js
-    npm install package
+    python script.py
+    pip install module
     ```
 5. Python stats package (Numpy, pandas)
 
     ```
+    #!/usr/bin/env python
     import numpy
+    import pyPdf
+    import scraperwiki
+    import pandas
     ```
-6. OSGEO in Python
+6. Poppler
 
     ```
+    pdftohtml test.pdf -xml test.xml
+    ```
+7. OSGEO in Python
+
+    ```
+    #!/usr/bin/env python
     from osgeo import gdal
     ```
-7. GDAL scripts
+8. GDAL scripts
 
     ```
     gdal_grid...
     ```
-8. Drive mapping
+9. Drive mapping
     - C:/git => /git
     - C:/git/dev-env => /vagrant
     - S:/ => /s
