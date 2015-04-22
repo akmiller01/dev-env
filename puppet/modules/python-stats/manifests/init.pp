@@ -7,7 +7,7 @@ class python-stats {
                 provider => pip,
                 require => Package['python-pip']
             }
-            package { ['libfreetype6-dev', 'pkg-config']:
+            package { ['libfreetype6-dev', 'pkg-config','python-lxml']:
                 ensure => installed
             }
             package { ['pyPdf']:
