@@ -17,7 +17,7 @@ Development Environment Repo
     cd git
     git clone https://github.com/akmiller01/dev-env.git
     ```
-6. (Optional) If your computer has less than 4 cores, less than 4 GB of RAM, or does not have an S: drive, edit lines 53, 52, and 41 of Vagrantfile respectively
+6. (Optional) If your computer has more than 1 core, more than 2 GB of RAM, or has additional drives to mount, edit lines 53, 52, and 41 of Vagrantfile respectively
 7. Run the following commands:
 
     ```
@@ -103,4 +103,3 @@ Development Environment Repo
 9. Drive mapping
     - C:/git => /git
     - C:/git/dev-env => /vagrant
-    - S:/ => /s
